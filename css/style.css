@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Staatliches&family=Teko:wght@300..700&display=swap');
+
+/* tag Global */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.banner {
+    background-image: url('../assets/images/banner.png'), linear-gradient(#000000, #002d42, #000000);
+    height: 35rem ;
+}
+.banner-content {
+    text-align: center;
+}
+.banner-content h1 {
+    background: linear-gradient(#28b0ff,#0079be);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color:transparent;
+    font-family: "Staatliches", sans-serif;
+    font-size: 55px;
+    font-weight: 900;
+    margin: 2%;
+}
+.banner-content p {
+    color: #fff;
+    text-align: center;
+    white-space:pre-line;
+    font-weight: 300;
+    font-size: larger;
+    font-family: "Josefin Sans", sans-serif;
+}
+.banner-content button {
+    cursor: pointer;
+    background: transparent;
+    border: solid 2px;
+    border-image-source: linear-gradient(#46cbff, #00a2ff);
+    border-image-slice: 10;
+    color: transparent;
+    background: linear-gradient(#47bbff,#00a2ff);
+    -webkit-background-clip:text;
+    background-clip:text;
+    margin: 20px;
+    padding: 15px 70px;
+    font-size: x-large;
+    font-weight: 700;
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+}
+.banner-content button:hover {
+    color: #40baeb;
+    background: rgba(0, 255, 255, 0.041);
+}
+
+/* Main-section 1#*/
+#course-content {
+    background: black;
+    border-top: solid 1px #0079be;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#course-content h2 {
+    color: rgb(0, 180, 204);
+    margin-top: 90px;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: monospace;
+}
+#course-content p {
+    color: #fff;
+    margin-bottom: 50px;
+    white-space: pre-line;
+    font-weight: 200;
+    font-size: large;
+    font-family: "Josefin Sans", sans-serif;
+}
+.modules-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 150px;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    font-size: large;
+}
+.module span {
+    color: #61c5ff;
+}
+.module {
+    margin: 10px;
+    padding: 1rem 5rem;
+    width: 45%;
+    border: solid 1px #0079be;
+    border-radius: 30px;
+    background: #161616;
+    box-shadow: inset 5px 5px 10px black;
+}
+.module:hover {
+    background: #2525256e;
+}
+
+/* main-section 2# */
+#transform-world {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30rem;
+    background-image: url("../assets/images/woman-code.png");
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: solid 1px #0079be;
+}
+#transform-world p {
+    margin-left: 10rem;
+    white-space: pre-line;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: lowercase;
+    font-size: xx-large;
+    font-weight: 800;
+    text-shadow: #32b4ff 3px 1px;
+
+}
+
+/* main-section 3# */
+#professional-challenges {
+    background: #000;
+    border-top: solid 1px #0079be;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#professional-challenges h2 {
+    color: rgb(0, 180, 204);
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-size: 35px;
+    white-space: pre-line;
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+    letter-spacing: 5px ;
+}
+#professional-challenges p {
+    margin: 20px;
+    padding-bottom: 70px;
+    color: #fff;
+    white-space: pre-line;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 200;
+    font-size: large;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(#000,#00293b);
+    border-top: solid 1px #0079be;
+    padding: 50px;
+    text-align: center;
+}
+footer img {
+    margin-bottom: 5px;
+}
+footer p {
+    color: #fff;
+    font-family: "Josafin Sans", sans-serif;
+    font-size: medium;
+    font-weight: 100;
+}
+footer p a {
+    color: #46cbff;
+    text-decoration: none;
+    font-weight: 600;
+}
+footer p a:hover {
+    color: #0079be;
+}
